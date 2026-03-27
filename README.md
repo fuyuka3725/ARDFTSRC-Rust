@@ -1,5 +1,5 @@
 # ARDFTSRC
-ARDFTSRC Audio Resampler, by mycroft, port to Rust and Windows by dBpoweramp.com
+ARDFTSRC Audio Resampler, by mycroft, sigmoid taper variant, port to Rust and Windows by dBpoweramp.com
 
 Usage: pass on command line : "c:\in.wav" "c:\out.wav" 48000 (out frequency) 16 (out bitdepth) 2048 [optional quality] 0.95 [optional bandwidth]
 
