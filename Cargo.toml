@@ -1,0 +1,26 @@
+[package]
+name        = "ardftsrc"
+version     = "0.1.0"
+edition     = "2024"
+description = "ARDFTSRC resampler - Rust port: sigmoid taper variant"
+license     = "MIT License"
+
+[[bin]]
+name = "ardftsrc"
+path = "main.rs"
+
+[dependencies]
+# WAV I/O  (replaces AudioFile<double>)
+hound        = "3.5"
+
+# Complex numbers  (replaces std::complex<double>)
+num-complex  = "0.4"
+
+# Pure-Rust FFT  (replaces fftw3)
+rustfft      = "6.2"
+
+[profile.release]
+opt-level   = 3
+lto         = "thin"   # link-time optimisation for cross-crate inlining
+codegen-units = 1      # single CGU → best inlining
+panic       = "abort"  # smaller binary, no unwinding overhead
