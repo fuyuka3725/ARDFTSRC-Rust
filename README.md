@@ -7,7 +7,7 @@ Quality should be high if increasing bandwidth, example ardftsrc.exe "c:\in.wav"
 When reducing the quality, example ardftsrc.exe "c:\in.wav" "c:\out.wav" 44100 16 2048 0.96
 
 
-SOME PART OF THIS SOURCE CODE WERE GENERATED USING AI (X.com Grok & Anthropic Claude).
+SOME PART OF THIS SOURCE CODE WERE GENERATED USING AI (Anthropic Claude).
 THIS IMPLIES THAT AI CODE GENERATORS WAS USED, BUT IT DOES NOT MEAN THAT
 THE PROGRAM ITSELF OPERATES USING AI.
 
