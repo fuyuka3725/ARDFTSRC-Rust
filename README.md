@@ -12,4 +12,4 @@ THIS IMPLIES THAT AI CODE GENERATORS WAS USED, BUT IT DOES NOT MEAN THAT
 THE PROGRAM ITSELF OPERATES USING AI.
 
 # TODO
-- [ ] Fix to 24bit_int save error.
+- [x] Fix to 24bit_int save error.
