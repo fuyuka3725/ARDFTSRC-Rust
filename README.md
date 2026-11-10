@@ -1,3 +1,6 @@
+# Plase use ardftsrc-rs
+https://github.com/phayes/ardftsrc-rs
+
 # ARDFTSRC
 ARDFTSRC Audio Resampler, by mycroft, sigmoid taper variant, port to Rust and Windows by dBpoweramp.com
 
